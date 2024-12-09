@@ -1,0 +1,53 @@
+{
+  "allow": [
+    {
+      "name": "Cappuccino",
+      "size": "Shorts",
+      "calories": "150",
+      "price": "$283",
+      "id": "8680"
+    },
+    {
+      "name": "Signature Hot Choclate",
+      "size": "Tall",
+      "calories": "280",
+      "price": "$309",
+      "id": "f443"
+    },
+    {
+      "name": "Vanilla Milkshake",
+      "size": "Tall",
+      "calories": "584",
+      "price": "$378",
+      "id": "b130"
+    },
+    {
+      "name": "Cold Brew Black",
+      "size": "Shorts",
+      "calories": "210",
+      "price": "$299",
+      "id": "affa"
+    },
+    {
+      "name": "Double Choclate Chip",
+      "size": "Tall",
+      "calories": "284",
+      "price": "$411",
+      "id": "9cfa"
+    },
+    {
+      "name": "Cold Coffie",
+      "size": "Tall",
+      "calories": "254",
+      "price": "$388",
+      "id": "d9a2"
+    },
+    {
+      "id": "a413",
+      "name": "Hot Coffie",
+      "size": "Tall",
+      "calories": "245",
+      "price": "$567"
+    }
+  ]
+}

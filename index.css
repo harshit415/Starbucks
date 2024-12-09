@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+#nav {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav article {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+#nav article div a {
+  text-decoration: none;
+  color: rgb(96, 93, 93);
+  margin: 15px;
+}
+
+#nav article div img {
+  margin: 10px;
+}
+
+.fa-user {
+  margin-left: 20px;
+  color: rgb(196, 183, 183);
+}
+
+#nav article div input {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgb(197, 191, 191);
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+  #nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #nav article {
+    padding: 10px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #nav article div a {
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  #nav article div input {
+    width: 150px;
+    height: 25px;
+  }
+
+  .fa-user {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #nav article div a {
+    margin: 5px;
+    font-size: 12px;
+  }
+
+  #nav article div input {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* Secondary Navigation Bar */
+#nav2 {
+  padding: 25px;
+  background-color: black;
+}
+
+#nav2 article div {
+  text-align: end;
+  padding-right: 50px;
+}
+
+#nav2 article div button {
+  width: 100px;
+  height: 25px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  #nav2 article div {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+/* Cards */
+#card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+#card article div img {
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+/* Forms */
+.form-container {
+  margin: 20px auto;
+  max-width: 90%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-container button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table thead {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3932;
+  color: #fff;
+  padding: 20px 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 10px 0;
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-disclaimer {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+}

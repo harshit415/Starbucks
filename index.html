@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body onload="getdata()">
+    <section id="nav">
+        <article>
+        <div>
+          <img
+            width="35px"
+            src="https://www.starbucks.in/assets/icon/logo.png"
+            alt=""
+          />
+        </div>
+      
+      
+        <div><a href="#">Home</a></div>
+        <div><a href="#">Gift</a></div>
+        <div><a href="#">Order</a></div>
+        <div><a href="#">Pay</a></div>
+        <div><a href="#">Store</a></div>
+      </article>
+      <article>
+        <div>
+          <input
+            type="search"
+            placeholder="&nbsp &nbsp Looking for something specific"
+          />
+        </div>
+        <div><i class="fa-solid fa-user"></i></div>
+      </article>
+    </section>
+    <section id="nav2">
+       <article>
+        <div><button>Know More</button></div>
+       </article>
+    </section>
+    <section>
+      <div> <img width="100%" height="600px" src="https://www.starbucks-india.co.in/images/hoverimg/202408262010156692.jpg" alt=""></div>
+    </section>
+      <section id="head">
+        <h2>Handcrafted Curations</h2>
+    </section>
+    <section id="card">
+        <article>
+            <div><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/Bestseller.jpg" alt=""></div>
+            <center><div>Bestseller</div></center>
+        </article>
+        <article>
+            <div><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/Drinks.jpg" alt=""></div>
+            <center><div>Drinks</div></center>
+        </article>
+        <article>
+            <div><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/Food.jpg" alt=""></div>
+            <center><div>Food</div></center>
+        </article>
+        <article>
+            <div>
+                <img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/Merchandise.jpg" alt="">
+                <center><div>Merchandise</div></center>
+            </div>
+        </article>
+        <article>
+            <div><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/CoffeeAtHome.jpg" alt=""></div>
+            <center><div>Coffee At Home </div></center>
+        </article>
+        <article>
+           <div><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/ReadyToEat.jpg" alt=""></div>
+           <center><div>Ready to Eat</div></center>
+        </article>
+    </section>
+    <h1> Data Table</h1>
+
+
+
+    <!-- Data Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Size</th>
+                <th>Calories</th>
+                <th>Price</th>
+                 <th>Add</th>
+               
+            </tr>
+        </thead>
+        <tbody id="output"></tbody>
+    </table>
+
+    <!-- Update Form -->
+    <div id="update"></div>
+       <!-- Insert Form -->
+       <div class="form-container">
+        <h3>Insert Data</h3>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="size" placeholder="Size">
+        <input type="text" id="calories" placeholder="Calories">
+        <input type="text" id="price" placeholder="Price">
+        <button onclick="insert()">Insert</button>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+          <div class="footer-section">
+              <h3>About Us</h3>
+              <ul>
+                  <li><a href="#">Our Company</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Social Impact</a></li>
+                  <li><a href="#">Newsroom</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer-section">
+              <h3>Customer Service</h3>
+              <ul>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Gift ocator</a></li>
+              </ul>
+          </div>Cards</a></li>
+                  <li><a href="#">Store L
+  
+          <div class="footer-section">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                  <a href="#" aria-label="Facebook">&#xf09a;</a>
+                  <a href="#" aria-label="Twitter">&#xf099;</a>
+                  <a href="#" aria-label="Instagram">&#xf16d;</a>
+                  <a href="#" aria-label="YouTube">&#xf167;</a>
+              </div>
+          </div>
+      </div>
+  
+      <div class="footer-disclaimer">
+          &copy; 2024 Starbucks Corporation. All rights reserved. Privacy Policy | Terms of Use
+      </div>
+      </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
